@@ -1,20 +1,16 @@
-
-import React from 'react'
-import First from './component/First';
-import {Second,Third} from './component/Second'
-
+import React from "react";
+import Header from "./component/Header/Header";
+import Main from "./component/Main/Main";
+import Footer from "./component/Footer/Footer";
 
 function App() {
   return (
     <>
-    <First/>
-    <Second/>
-    <Third/>
+      <Header />
+      <Main />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
-
-
-
+export default App;
