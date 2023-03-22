@@ -1,0 +1,39 @@
+.forms{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      height: 100vh;
+      width: 50vw;
+
+}
+
+.content{
+      color: gray;
+      background-color: black;
+      border: 2px solid  rgb(140, 34, 221);
+      padding: 10px;
+      width: 100%;
+}
+
+.btn{
+      border: 2px solid  rgb(140, 34, 221);
+      padding: 10px 73px;
+      margin: 10px 10px;
+      width: 100%;
+      background-color: black;
+      color:white;
+}
+
+.btn:hover{
+      background-color: rgb(140, 34, 221);
+}
+
+.tbl{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50vw;
+      padding: 5rem;
+      /* background-color: aqua; */
+}

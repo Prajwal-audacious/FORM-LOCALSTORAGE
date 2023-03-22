@@ -1,16 +1,27 @@
-import React from "react";
-import Header from "./component/Header/Header";
-import Main from "./component/Main/Main";
-import Footer from "./component/Footer/Footer";
+import { React } from "react";
+import Form from "./component/Form";
+import Table from "./component/table";
 
-function App() {
+const information = () => {
+  const info = JSON.parse(localStorage.getItem("data"));
+  const arr = [...info];
+  console.log(...arr);
+  return arr;
+};
+
+const App = () => {
   return (
     <>
-      <Header />
-      <Main />
-      <Footer />
+      <div className="wrapper">
+        <div className="bx1">
+          <Form />
+        </div>
+        <div className="bx1">
+          <Table data={information()} />
+        </div>
+      </div>
     </>
   );
-}
+};
 
 export default App;

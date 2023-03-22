@@ -1,5 +1,12 @@
 *{
       margin: 0;
       padding: 0;
+      /* background-color: black;
+      color: white;
+      border: none; */
 }
 
+.wrapper{
+      display: flex;
+      justify-content: space-between;
+}
